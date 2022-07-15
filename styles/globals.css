@@ -8,12 +8,56 @@ Variables
   --bg-red: #f15d58;
   --bg-moon: #dcddcd;
   --bg-sand: #a68f58;
-  --grey-dark: #363635;
+  --bg-dark-sand: #7c6a40;
+  --dark-grey: #363635;
   --black: #000;
   --white: #fff;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
 }
 
+/* Global styles */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+p,
+li,
+a,
+strong {
+  letter-spacing: 0.6px;
+  line-height: 1.5;
+}
 /* Main */
+
+/* section  */
+
+.homeSection {
+  background: var(--bg-red);
+}
 
 /* Container */
 .container {

@@ -13,8 +13,12 @@ const PageLayout = ({ children }) => {
         />
         <title>Islam Aboamh - Homepage</title>
       </Head>
-      <Navbar />
-      <main className='main'>{children}</main>
+      <div className='homeSection'>
+        <div className='container'>
+          <Navbar />
+        </div>
+        <main className='main'>{children}</main>
+      </div>
     </div>
   );
 };
