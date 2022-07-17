@@ -83,7 +83,9 @@
   }
   .navToggle {
     display: block;
+    margin-top: 0.25rem;
     font-size: 1.5rem;
+    margin-right: 2rem;
     background: transparent;
     border-color: transparent;
     transition: var(--transition);

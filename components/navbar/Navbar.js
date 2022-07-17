@@ -4,9 +4,10 @@ import { SiProbot } from "react-icons/si";
 import { FaBars } from "react-icons/fa";
 import { RiMoonFill } from "react-icons/ri";
 import styles from "./Navbar.module.css";
+import { useGlobalContext } from "../context";
 
 const Navbar = () => {
-  const [showLinks, setShowLinks] = useState(false);
+  const { openSidebar } = useGlobalContext();
 
   return (
     <nav className={styles.nav}>
@@ -38,7 +39,7 @@ const Navbar = () => {
         </div>
         <div className={styles.mobileNav}>
           <RiMoonFill className={styles.darkMode} />
-          <button className={styles.navToggle}>
+          <button className={styles.navToggle} onClick={openSidebar}>
             <FaBars />
           </button>
         </div>
