@@ -6,12 +6,10 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <PageLayout>
-      <div className='homeSection'>
-        <div className='container'>
-          <HomeHero />
-        </div>
+    <div className='homeSection'>
+      <div className='container'>
+        <HomeHero />
       </div>
-    </PageLayout>
+    </div>
   );
 }

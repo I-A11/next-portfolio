@@ -13,19 +13,20 @@
   font-size: 1.2rem;
 }
 
-.navContainer a {
-  color: var(--black);
-}
-
-.logo a {
+.logoLink {
   display: flex;
   align-items: center;
   margin-left: 5rem;
   font-weight: 500;
 }
 
-.logoRobot {
+/* .logoRobot {
   color: var(--black);
+} */
+
+.logoRobot:hover {
+  color: var(--bg-moon);
+  transform: scale(1.5);
 }
 
 .logoText {
@@ -37,8 +38,13 @@
   align-items: center;
 }
 
-.navLinks a {
+.navListLink:hover {
+  color: var(--bg-moon);
+}
+
+.navListLink {
   padding: 2rem;
+  cursor: pointer;
 }
 
 .mobileNav {
@@ -51,6 +57,7 @@
 .darkMode {
   background: var(--bg-sand);
   color: var(--white);
+  border-color: transparent;
   width: 2rem;
   height: 2rem;
   padding: 0.5rem;
@@ -75,10 +82,11 @@
     justify-content: space-between;
   }
 
-  .logo a {
+  .logoLink {
     margin-left: 1rem;
   }
-  .navLinks a {
+
+  .navListLink {
     padding: 1rem;
   }
 

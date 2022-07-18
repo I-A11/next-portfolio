@@ -48,6 +48,8 @@
 .link:hover {
   padding-left: 1rem;
   transition: var(--transition);
+  background: var(--bg-dark-sand);
+  border-radius: var(--radius);
 }
 
 .linkLogo {
