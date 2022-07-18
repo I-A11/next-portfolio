@@ -17,6 +17,7 @@ Variables
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
+  --vista-white: #faf9f4;
 }
 
 /* Global styles */
@@ -93,5 +94,11 @@ strong {
 @media (min-width: 1400px) {
   .container {
     max-width: 1250px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .sidebar-wrapper {
+    display: none;
   }
 }
