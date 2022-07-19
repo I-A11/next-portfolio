@@ -24,7 +24,7 @@ const Navbar = () => {
 
     if (currentTheme === "dark") {
       return (
-        <button className={styles.darkMode} onClick={() => setTheme("light")}>
+        <button className={styles.lightMode} onClick={() => setTheme("light")}>
           <BsFillSunFill />
         </button>
       );
