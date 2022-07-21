@@ -122,28 +122,16 @@
   }
 }
 
-/* @media (max-width: 700px) {
-  .infoImage {
-    display: none;
-  }
-
+@media (max-width: 400px) {
   .aboutContainer {
-    font-size: 1rem;
-  }
-
-  .infoContainer {
-    justify-content: center;
-  }
-
-  .infoText {
-    width: 100%;
+    font-size: 0.8rem;
   }
 
   .infoAbout {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .infoText {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
-} */
+}
