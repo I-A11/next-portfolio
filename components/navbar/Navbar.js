@@ -49,14 +49,14 @@ const Navbar = () => {
           </Link>
         </div>
         <div className={styles.navLinks}>
+          <Link href='/'>
+            <div className={styles.navListLink}>
+              <div>Home</div>
+            </div>
+          </Link>
           <Link href='/projects'>
             <div className={styles.navListLink}>
               <div>Projects</div>
-            </div>
-          </Link>
-          <Link href='/'>
-            <div className={styles.navListLink}>
-              <div>Skills</div>
             </div>
           </Link>
           <Link href='/'>

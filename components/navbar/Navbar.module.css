@@ -29,6 +29,9 @@
 .logoText {
   margin-left: 1rem;
 }
+.logoText:hover {
+  color: var(--blue-gem);
+}
 
 .navLinks {
   display: flex;
@@ -63,8 +66,8 @@
 }
 
 .lightMode {
-  background: var(--bg-moon);
-  color: var(--bg-sand);
+  background: var(--bg-dark-sand);
+  color: var(--sun);
   border-color: transparent;
   width: 2rem;
   height: 2rem;
@@ -74,7 +77,11 @@
 }
 
 .darkMode:hover {
-  background: var(--bg-dark-sand);
+  background: var(--blue-gem);
+}
+
+.lightMode:hover {
+  background: var(--blue-gem);
 }
 
 .navToggle {
