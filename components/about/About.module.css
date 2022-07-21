@@ -1,0 +1,19 @@
+.aboutSection {
+  background: var(--bg-moon);
+  margin-top: -5rem;
+}
+
+.aboutContainer {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: var(--black);
+}
+
+@media (min-width: 1400px) {
+  .aboutContainer {
+    max-width: 1250px;
+  }
+}

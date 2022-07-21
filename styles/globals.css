@@ -10,6 +10,7 @@ Variables
   --bg-sand: #a68f58;
   --bg-dark-sand: #7c6a40;
   --dark-grey: #363635;
+  --blue-gem: #2b1b96;
   --black: #000;
   --white: #fff;
   --radius: 0.25rem;
@@ -43,6 +44,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: "GT Walsheim Pro", "Helvetica Neue", sans-serif;
 }
 
 ul {

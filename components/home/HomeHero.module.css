@@ -1,11 +1,73 @@
-.heroContainer {
-  height: 700px;
-}
-
 .heroSection {
   height: 500px;
   min-width: 200px;
   margin-top: 3rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.aboutSection {
+  background: var(--bg-moon);
+  margin-top: -5rem;
+}
+
+.aboutContainer {
+  padding: 3rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: var(--black);
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 3rem;
+}
+
+.aboutName {
+  color: var(--blue-gem);
+}
+
+.infoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  color: var(--black);
+}
+
+.infoText {
+  width: 70%;
+}
+.infoAbout {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.underline {
+  border-top: 1px solid var(--dark-grey);
+  width: 6.8rem;
+  margin-top: 0.25rem;
+  margin-bottom: 1.2rem;
+  border-width: 0.25rem;
+}
+
+.infoText {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.infoImage {
+  width: 10rem;
+  margin-right: 5rem;
+}
+
+.infoImage img {
+  border-radius: 40%;
+}
+
+@media (min-width: 1400px) {
+  .aboutContainer {
+    max-width: 1250px;
+  }
 }
