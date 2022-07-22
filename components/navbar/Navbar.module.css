@@ -104,10 +104,6 @@
   .navListLink {
     padding: 1rem;
   }
-
-  .darkMode {
-    margin-right: 2rem;
-  }
 }
 
 @media (max-width: 650px) {

@@ -1,9 +1,11 @@
 import React, { useState, useContext } from "react";
+import { useTheme } from "next-themes";
 
 const AppContext = React.createContext();
 
 export const AppProvider = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const { systemTheme, theme, setTheme } = useTheme();
 
   const openSidebar = () => {
     setIsSidebarOpen(true);
@@ -13,7 +15,16 @@ export const AppProvider = ({ children }) => {
   };
 
   return (
-    <AppContext.Provider value={{ isSidebarOpen, openSidebar, closeSidebar }}>
+    <AppContext.Provider
+      value={{
+        isSidebarOpen,
+        openSidebar,
+        closeSidebar,
+        systemTheme,
+        theme,
+        setTheme,
+      }}
+    >
       {children}
     </AppContext.Provider>
   );

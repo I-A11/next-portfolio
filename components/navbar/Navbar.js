@@ -9,8 +9,7 @@ import styles from "./Navbar.module.css";
 import { useGlobalContext } from "../context";
 
 const Navbar = () => {
-  const { openSidebar } = useGlobalContext();
-  const { systemTheme, theme, setTheme } = useTheme();
+  const { openSidebar, systemTheme, theme, setTheme } = useGlobalContext();
   const [mount, setMount] = useState(false);
 
   useEffect(() => {

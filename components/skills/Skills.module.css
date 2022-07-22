@@ -1,0 +1,17 @@
+.technologiesContainer {
+  padding: 0.5rem 5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.technologies {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  color: var(--black);
+  margin: 0.5rem auto;
+  padding: 0 7rem 1rem 0;
+}
