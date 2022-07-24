@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import IslamImage from "../../assets/islam-1.jpg";
-import { MdArrowRight } from "react-icons/md";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 import styles from "./About.module.css";
 

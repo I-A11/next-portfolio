@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../navbar/Navbar";
 import Sidebar from "../sidebar/Sidebar";
+import Footer from "../footer/Footer";
 
 const PageLayout = ({ children }) => {
   return (
@@ -20,6 +21,7 @@ const PageLayout = ({ children }) => {
           <Sidebar />
         </div>
         <main className='main'>{children}</main>
+        <Footer />
       </div>
     </div>
   );

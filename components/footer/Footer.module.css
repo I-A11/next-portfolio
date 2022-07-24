@@ -1,0 +1,66 @@
+.footerSection {
+  background: transparent;
+  /* box-shadow: var(--light-shadow); */
+}
+
+.underline {
+  border-top: 1px solid var(--dark-grey);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footerContainer {
+  width: 70%;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.footerContainer h1 {
+  text-align: center;
+}
+
+.footerContainer p {
+  text-align: center;
+  margin: 1rem 0;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialLinkedin {
+  margin-right: 1rem;
+}
+
+.socialLinkedin:hover,
+.socialGithub:hover {
+  color: var(--bg-dark-sand);
+}
+
+.footerBtn {
+  background: var(--bg-moon);
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: 2rem auto;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  width: 10rem;
+  cursor: pointer;
+}
+
+.footerBtn:hover {
+  background: var(--bg-dark-sand);
+}
+
+.robotLicense {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .footerContainer {
+    width: 100%;
+  }
+}
