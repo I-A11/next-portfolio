@@ -1,8 +1,16 @@
 .technologiesContainer {
-  padding: 0.5rem 5rem;
+  padding: 2rem 5rem;
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--black);
+}
+
+.technologiesContainer h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.technologiesContainer p {
+  margin-bottom: 1.5rem;
 }
 
 .technologies {
@@ -11,7 +19,47 @@
   justify-content: space-between;
   align-items: center;
   font-weight: 600;
-  color: var(--black);
-  margin: 0.5rem auto;
-  padding: 0 7rem 1rem 0;
+}
+
+.tech {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.techIcon {
+  margin-right: 0.5rem;
+  padding-top: 0.25rem;
+}
+
+.techIcon:hover {
+  color: var(--bg-dark-sand);
+}
+
+@media (max-width: 700px) {
+  .technologiesContainer {
+    padding: 2rem 3rem;
+  }
+  .technologies {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .technologies {
+    width: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .tech {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
 }
