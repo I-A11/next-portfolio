@@ -22,7 +22,7 @@ const About = () => {
           <div className={styles.infoText}>
             Creative Front-End Developer with experience building responsive
             websites and apps in fast-paced, collaborative environment. Talented
-            in HTML/CSS/JavaScript/React.js and Next.js. Familiar in Scrum and
+            in HTML/CSS/JavaScript/React.js and Next.js. Familiar with Scrum and
             Agile.
           </div>
         </div>
