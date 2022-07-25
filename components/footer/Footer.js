@@ -30,8 +30,8 @@ const Footer = () => {
           <button className={styles.footerBtn}>Send email</button>
         </Link>
         <div className={styles.robotLicense}>
-          <strong>3D Robot</strong> work is based on "Robot Steampunk 3D-Coat
-          4.5 PBR"
+          <strong>3D Robot</strong> work is based on Robot Steampunk 3D-Coat 4.5
+          PBR
           (https://sketchfab.com/3d-models/robot-steampunk-3d-coat-45-pbr-91eb0eb061024bf1bc5e3eb5ffe385d8)
           by 3d-coat (https://sketchfab.com/3d-coat) licensed under CC-BY-4.0
           (http://creativecommons.org/licenses/by/4.0/)

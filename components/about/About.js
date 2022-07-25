@@ -11,9 +11,9 @@ const About = () => {
     <div className={styles.aboutSection}>
       <div className={styles.aboutContainer}>
         <h1>
-          Hello, I'm <span className={styles.aboutName}>Islam Aboamh </span>{" "}
+          Hello, I am <span className={styles.aboutName}>Islam Aboamh </span>{" "}
         </h1>
-        <h2>I'm a front-end web developer </h2>
+        <h2>I am a front-end web developer </h2>
       </div>
       <div className={`container ${styles.infoContainer}`}>
         <div className={styles.infoText}>
