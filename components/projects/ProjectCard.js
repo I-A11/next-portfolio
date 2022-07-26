@@ -19,10 +19,20 @@ const ProjectCard = ({ image, title, href, project }) => {
         </div>
         <h3>{title}</h3>
         <div className={styles.cardText}>
-          <a className={styles.cardLink} href={href} target='_blank'>
+          <a
+            className={styles.cardLink}
+            href={href}
+            target='_blank'
+            rel='noreferrer'
+          >
             View Project
           </a>
-          <a className={styles.cardSource} href={project} target='_blank'>
+          <a
+            className={styles.cardSource}
+            href={project}
+            target='_blank'
+            rel='noreferrer'
+          >
             Code
           </a>
         </div>
