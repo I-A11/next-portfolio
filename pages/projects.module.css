@@ -1,0 +1,35 @@
+.projectsSection {
+  display: flex;
+  margin-top: -10rem;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.projectsContainer h1 {
+  margin-bottom: 2rem;
+}
+
+.reactProjects {
+  margin: 0 0 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .projectsContainer {
+    width: 100%;
+  }
+
+  .reactProjects {
+    flex-direction: column;
+  }
+}

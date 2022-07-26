@@ -1,0 +1,54 @@
+.cardImage {
+  width: 300px;
+  margin: 2rem 2rem 1rem;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all ease-in-out 0.3s;
+}
+
+.cardImage:hover {
+  transform: translateY(-10px);
+}
+
+.cardSection h3 {
+  text-align: center;
+}
+
+.cardText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardLink,
+.cardSource {
+  margin: 1rem 0.5rem;
+  background: var(--bg-moon);
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cardLink:hover,
+.cardSource:hover {
+  background: var(--bg-dark-sand);
+}
+
+@media (max-width: 700px) {
+  .cardImage {
+    width: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+  .cardImage {
+    width: 300px;
+  }
+}
+@media (max-width: 320px) {
+  .cardImage {
+    width: 250px;
+  }
+}
