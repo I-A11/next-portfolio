@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./ProjectCard.module.css";
 
-const ProjectCard = ({ image, title, href, project }) => {
+const ProjectCard = ({ image, title, href, projectCode }) => {
   return (
     <div className={styles.cardSection}>
       <div className={styles.cardContainer}>
@@ -29,7 +29,7 @@ const ProjectCard = ({ image, title, href, project }) => {
           </a>
           <a
             className={styles.cardSource}
-            href={project}
+            href={projectCode}
             target='_blank'
             rel='noreferrer'
           >

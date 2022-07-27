@@ -58,10 +58,12 @@ const Navbar = () => {
               <div>Projects</div>
             </div>
           </Link>
-          <Link href='/'>
-            <div className={styles.navListLink}>
-              <div>Source</div>
-            </div>
+          <Link href='https://github.com/I-A11/next-portfolio'>
+            <a target='_blank' rel='noreferrer'>
+              <div className={styles.navListLink}>
+                <div>Source</div>
+              </div>
+            </a>
           </Link>
         </div>
         <div className={styles.mobileNav}>
