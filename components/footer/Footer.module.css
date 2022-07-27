@@ -30,6 +30,11 @@
 
 .socialLinkedin {
   margin-right: 1rem;
+  color: var(--cyan);
+}
+
+.socialGithub {
+  color: var(--cyan);
 }
 
 .socialLinkedin:hover,

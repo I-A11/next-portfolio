@@ -13,6 +13,7 @@ Variables
   --dark-grey: #242423;
   --light-grey: #8d8d8d;
   --blue-gem: #2b1b96;
+  --cyan: #2596be;
   --black: #000;
   --white: #fff;
   --radius: 0.25rem;
@@ -97,6 +98,20 @@ strong {
   visibility: visible;
   z-index: 2;
   transform: scale(1);
+}
+
+/* Spinner */
+.spinnerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  width: 100%;
+  height: 500px;
+}
+
+.loader {
+  padding-bottom: 5rem;
 }
 
 /* @media */

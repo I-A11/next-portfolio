@@ -16,7 +16,7 @@
 }
 
 .aboutName {
-  color: var(--blue-gem);
+  color: var(--cyan);
 }
 
 .infoContainer {
@@ -58,7 +58,7 @@
 }
 
 .infoBtn {
-  background: var(--blue-gem);
+  background: var(--cyan);
   display: flex;
   align-self: center;
   justify-content: center;
