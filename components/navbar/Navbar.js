@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import { useTheme } from "next-themes";
 import Link from "next/link";
 import { SiProbot } from "react-icons/si";
@@ -7,6 +8,7 @@ import { RiMoonFill } from "react-icons/ri";
 import { BsFillSunFill } from "react-icons/bs";
 import styles from "./Navbar.module.css";
 import { useGlobalContext } from "../context";
+import GithubLogo from "../../assets/github.svg";
 
 const Navbar = () => {
   const { openSidebar, systemTheme, theme, setTheme } = useGlobalContext();
@@ -61,7 +63,9 @@ const Navbar = () => {
           <Link href='https://github.com/I-A11/next-portfolio'>
             <a target='_blank' rel='noreferrer'>
               <div className={styles.navListLink}>
-                <div>Source</div>
+                <div className={styles.githubLogo}>
+                  <Image src={GithubLogo} width={45} />
+                </div>
               </div>
             </a>
           </Link>

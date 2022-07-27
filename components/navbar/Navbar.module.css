@@ -38,6 +38,10 @@
   align-items: center;
 }
 
+.githubLogo {
+  padding-top: 00.25rem;
+}
+
 .navListLink:hover {
   color: var(--bg-moon);
 }
