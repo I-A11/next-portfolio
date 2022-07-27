@@ -22,7 +22,7 @@
 }
 
 .logoRobot:hover {
-  color: var(--cyan);
+  color: var(--bg-moon);
   transform: scale(1.5);
 }
 
@@ -30,7 +30,7 @@
   margin-left: 1rem;
 }
 .logoText:hover {
-  color: var(--cyan);
+  color: var(--bg-moon);
 }
 
 .navLinks {

@@ -14,19 +14,19 @@ const Skills = () => {
         <div>
           <div className={styles.tech}>
             <div className={styles.techIcon}>
-              <FaHtml5 />
+              <FaHtml5 color='#fcb404' />
             </div>
             <div>HTML</div>
           </div>
           <div className={styles.tech}>
             <div className={styles.techIcon}>
-              <DiCss3 />
+              <DiCss3 color='	#264de4' />
             </div>
             <div>CSS</div>
           </div>
           <div className={styles.tech}>
             <div className={styles.techIcon}>
-              <SiTailwindcss />
+              <SiTailwindcss color='#38bdf8' />
             </div>
             <div>Tailwind</div>
           </div>
@@ -34,13 +34,13 @@ const Skills = () => {
         <div>
           <div className={styles.tech}>
             <div className={styles.techIcon}>
-              <SiJavascript />
+              <SiJavascript color='f0db4f' />
             </div>
             <div>JavaScript</div>
           </div>
           <div className={styles.tech}>
             <div className={styles.techIcon}>
-              <FaReact />
+              <FaReact color='#61dbfb' />
             </div>
             <div>React Js</div>
           </div>
@@ -54,19 +54,19 @@ const Skills = () => {
         <div>
           <div className={styles.tech}>
             <div className={styles.techIcon}>
-              <SiBootstrap />
+              <SiBootstrap color='#563d7c' />
             </div>
             <div>Bootstrap</div>
           </div>
           <div className={styles.tech}>
             <div className={styles.techIcon}>
-              <FaVuejs />
+              <FaVuejs color='#42b883' />
             </div>
             <div>Vue Js</div>
           </div>
           <div className={styles.tech}>
             <div className={styles.techIcon}>
-              <FaGitAlt />
+              <FaGitAlt color='#F1502F' />
             </div>
             <div> Git</div>
           </div>

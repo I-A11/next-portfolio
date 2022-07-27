@@ -33,10 +33,6 @@
   padding-top: 0.25rem;
 }
 
-.techIcon:hover {
-  color: var(--bg-dark-sand);
-}
-
 @media (max-width: 700px) {
   .technologiesContainer {
     padding: 2rem 3rem;
