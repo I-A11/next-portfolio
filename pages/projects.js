@@ -10,7 +10,7 @@ import TaskHunter from "../assets/projects/taskhunter-1.PNG";
 import SportSociety from "../assets/projects/sport-society.PNG";
 import MoviesClub from "../assets/projects/Movies-club.PNG";
 import Tetris from "../assets/projects/tetris.png";
-import FutureTechnology from "../assets/projects/future-technology.png";
+import FutureTechnology from "../assets/projects/future-technology.PNG";
 
 const projects = () => {
   return (
