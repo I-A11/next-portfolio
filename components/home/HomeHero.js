@@ -17,7 +17,7 @@ const HomeHero = () => {
   const loadingTime = () => {
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 5000);
   };
   useEffect(() => {
     loadingTime();
