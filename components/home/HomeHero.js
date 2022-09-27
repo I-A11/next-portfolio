@@ -1,12 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Image from "next/dist/client/image";
-import Link from "next/link";
 import { Suspense } from "react";
 import { Canvas } from "react-three-fiber";
 import { OrbitControls } from "@react-three/drei";
-import { MdArrowRight } from "react-icons/md";
 import Robot from "../home/robot/Robot";
-import IslamImage from "../../assets/islam-1.jpg";
 import { motion } from "framer-motion";
 import styles from "./HomeHero.module.css";
 import Loading from "../loading/Loading";
@@ -17,7 +13,7 @@ const HomeHero = () => {
   const loadingTime = () => {
     setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 3000);
   };
   useEffect(() => {
     loadingTime();

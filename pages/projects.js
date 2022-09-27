@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import HomeHero from "../components/home/HomeHero";
 import styles from "./projects.module.css";
 import ProjectCard from "../components/projects/ProjectCard";

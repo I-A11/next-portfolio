@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import IslamImage from "../../assets/islam-1.jpg";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 import styles from "./About.module.css";
 
@@ -11,7 +10,7 @@ const About = () => {
     <div className={styles.aboutSection}>
       <div className={styles.aboutContainer}>
         <h1>
-          Hello, I am <span className={styles.aboutName}>Islam Aboamh </span>{" "}
+          Hello, I am <span className={styles.aboutName}>Islam Aboamh </span>
         </h1>
         <h2>I am a front-end web developer </h2>
       </div>

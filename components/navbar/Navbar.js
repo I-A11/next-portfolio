@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { useTheme } from "next-themes";
 import Link from "next/link";
 import { SiProbot } from "react-icons/si";
 import { FaBars } from "react-icons/fa";
