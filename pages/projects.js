@@ -3,6 +3,7 @@ import HomeHero from "../components/home/HomeHero";
 import styles from "./projects.module.css";
 import ProjectCard from "../components/projects/ProjectCard";
 import CryptoGalaxy from "../assets/projects/crypto-galaxy.PNG";
+import Event from "../assets/projects/event-tracker.PNG";
 import MovieStudio from "../assets/projects/movie-studio.PNG";
 import PortfolioV1 from "../assets/projects/portfolio-v1.PNG";
 import TaskHunter from "../assets/projects/taskhunter-1.PNG";
@@ -26,11 +27,17 @@ const projects = () => {
               projectCode={"https://github.com/I-A11/Movie-Studio"}
             />
             <ProjectCard
+              image={Event}
+              title={"Event Tracker"}
+              href={"https://event-tracker.netlify.app/"}
+              projectCode={"https://github.com/I-A11/event-tracker"}
+            />
+            {/* <ProjectCard
               image={CryptoGalaxy}
               title={"Crypto Galaxy"}
               href={"https://crypto-galaxy-11.netlify.app/"}
               projectCode={"https://github.com/I-A11/crypto-galaxy"}
-            />
+            /> */}
           </div>
           <h1>JavaScript Projects</h1>
           <div className={styles.reactProjects}>
