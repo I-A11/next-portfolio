@@ -4,7 +4,7 @@ import Link from "next/link";
 import { SiProbot } from "react-icons/si";
 import { FaTimes } from "react-icons/fa";
 import { RiDashboardFill } from "react-icons/ri";
-import { FaLightbulb } from "react-icons/fa";
+import { GoHome } from "react-icons/go";
 import { FaGithub } from "react-icons/fa";
 import styles from "./Sidebar.module.css";
 
@@ -32,21 +32,22 @@ const Sidebar = () => {
           <Link href='/'>
             <a onClick={closeSidebar}>
               <div className={styles.link}>
+                <GoHome className={styles.linkLogo} />
+                Home
+              </div>
+            </a>
+          </Link>
+          <Link href='/projects'>
+            <a onClick={closeSidebar}>
+              <div className={styles.link}>
                 <RiDashboardFill className={styles.linkLogo} />
                 Projects
               </div>
             </a>
           </Link>
-          <Link href='/'>
-            <a onClick={closeSidebar}>
-              <div className={styles.link}>
-                <FaLightbulb className={styles.linkLogo} />
-                Skills
-              </div>
-            </a>
-          </Link>
-          <Link href='/'>
-            <a onClick={closeSidebar}>
+
+          <Link href='https://github.com/I-A11/next-portfolio'>
+            <a target='_blank' rel='noreferrer' onClick={closeSidebar}>
               <div className={styles.link}>
                 <FaGithub className={styles.linkLogo} />
                 Source
