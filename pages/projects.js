@@ -9,6 +9,7 @@ import PortfolioV1 from "../assets/projects/portfolio-v1.PNG";
 import TaskHunter from "../assets/projects/taskhunter-1.PNG";
 import SportSociety from "../assets/projects/sport-society.PNG";
 import MoviesClub from "../assets/projects/Movies-club.PNG";
+import HomeStyle from "../assets/projects/home-style.PNG";
 import Tetris from "../assets/projects/tetris.png";
 import FutureTechnology from "../assets/projects/future-technology.PNG";
 
@@ -21,23 +22,31 @@ const projects = () => {
           <h1>React Projects</h1>
           <div className={styles.reactProjects}>
             <ProjectCard
+              image={HomeStyle}
+              title={"Home Style"}
+              href={"https://home-style.netlify.app/"}
+              projectCode={"https://github.com/I-A11/home-style"}
+            />
+            <ProjectCard
               image={MovieStudio}
               title={"Movie Studio"}
               href={"https://boring-curran-3dad89.netlify.app/"}
               projectCode={"https://github.com/I-A11/Movie-Studio"}
             />
+          </div>
+          <div className={styles.reactProjects}>
             <ProjectCard
               image={Event}
               title={"Event Tracker"}
               href={"https://event-tracker.netlify.app/"}
               projectCode={"https://github.com/I-A11/event-tracker"}
             />
-            {/* <ProjectCard
+            <ProjectCard
               image={CryptoGalaxy}
               title={"Crypto Galaxy"}
               href={"https://crypto-galaxy-11.netlify.app/"}
               projectCode={"https://github.com/I-A11/crypto-galaxy"}
-            /> */}
+            />
           </div>
           <h1>JavaScript Projects</h1>
           <div className={styles.reactProjects}>
