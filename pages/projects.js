@@ -30,7 +30,7 @@ const projects = () => {
             <ProjectCard
               image={MovieStudio}
               title={"Movie Studio"}
-              href={"https://movie-studio-movies.netlify.app/"}
+              href={"https://studio-movies.netlify.app/"}
               projectCode={"https://github.com/I-A11/Movie-Studio"}
             />
           </div>
