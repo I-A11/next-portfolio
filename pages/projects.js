@@ -2,7 +2,7 @@ import React from "react";
 import HomeHero from "../components/home/HomeHero";
 import styles from "./projects.module.css";
 import ProjectCard from "../components/projects/ProjectCard";
-import CryptoGalaxy from "../assets/projects/crypto-galaxy.PNG";
+import CryptoGalaxy from "../assets/projects/CryptoGalaxy.png";
 import Event from "../assets/projects/event-tracker.PNG";
 import MovieStudio from "../assets/projects/movie-studio.PNG";
 import PortfolioV1 from "../assets/projects/portfolio-v1.PNG";
@@ -44,8 +44,8 @@ const projects = () => {
             <ProjectCard
               image={CryptoGalaxy}
               title={"Crypto Galaxy"}
-              href={"https://crypto-galaxy-11.netlify.app/"}
-              projectCode={"https://github.com/I-A11/crypto-galaxy"}
+              href={"https://crypto-galaxy-drab.vercel.app/"}
+              projectCode={"https://github.com/I-A11/CryptoGalaxy"}
             />
           </div>
           <h1>JavaScript Projects</h1>
