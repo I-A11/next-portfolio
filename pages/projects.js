@@ -4,6 +4,7 @@ import styles from "./projects.module.css";
 import ProjectCard from "../components/projects/ProjectCard";
 import CryptoGalaxy from "../assets/projects/CryptoGalaxy.png";
 import Event from "../assets/projects/event-tracker.PNG";
+import Apei from "../assets/projects/apei.png";
 import MovieStudio from "../assets/projects/movie-studio.PNG";
 import PortfolioV1 from "../assets/projects/portfolio-v1.PNG";
 import TaskHunter from "../assets/projects/taskhunter-1.PNG";
@@ -36,10 +37,10 @@ const projects = () => {
           </div>
           <div className={styles.reactProjects}>
             <ProjectCard
-              image={Event}
-              title={"Event Tracker"}
-              href={"https://event-tracker.netlify.app/"}
-              projectCode={"https://github.com/I-A11/event-tracker"}
+              image={Apei}
+              title={"APEI"}
+              href={"https://charming-bubblegum-a0b061.netlify.app/"}
+              projectCode={"https://github.com/I-A11/apei"}
             />
             <ProjectCard
               image={CryptoGalaxy}
