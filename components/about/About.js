@@ -12,7 +12,7 @@ const About = () => {
         <h1>
           Hello, I am <span className={styles.aboutName}>Islam Aboamh </span>
         </h1>
-        <h2>I am a front-end web developer </h2>
+        <h2>I am a front-end developer </h2>
       </div>
       <div className={`container ${styles.infoContainer}`}>
         <div className={styles.infoText}>
@@ -26,11 +26,11 @@ const About = () => {
           </div>
         </div>
         <div className={styles.infoImage}>
-          <Image src={IslamImage} alt='Islam image' />
+          <Image src={IslamImage} alt="Islam image" />
         </div>
       </div>
 
-      <Link href='/projects'>
+      <Link href="/projects">
         <button className={styles.infoBtn}>My Projects</button>
       </Link>
     </div>
