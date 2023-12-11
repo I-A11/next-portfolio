@@ -1,6 +1,6 @@
 ## Portfolio
 
-Using Next js to build personal portfolio.
+Using Next js to build a personal portfolio.
 
 ## Technologies
 
